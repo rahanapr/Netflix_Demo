@@ -19,7 +19,7 @@ class SearchIdleWidget extends StatelessWidget {
       Expanded(
         child: ListView.separated(
             shrinkWrap: true,
-            itemBuilder: (ctx, index) => TopSearchItemTile(),
+            itemBuilder: (ctx, index) => const TopSearchItemTile(),
             separatorBuilder: (ctx, index) => const SizedBox(height: 20),
             itemCount: 10),
       )
